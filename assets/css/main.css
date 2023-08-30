@@ -27,6 +27,7 @@
     --item-min-height-md: 30rem;
 }
 
+
 /* Base styles */
 *{
     margin: 0;
@@ -105,6 +106,7 @@ body.light-theme{
 .screen-sm-hidden{
     display: none;
 }
+
 /* Header */
 .header{
     background-color: var(--secondary-background-color);
