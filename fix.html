@@ -85,7 +85,7 @@
                 </button>
 
                 <a href="sign-in.html" class="list-link screen-sm-hidden">Sign in</a>
-                <a href="sign-up.html" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                <a href="sign-in.html" class="btn sign-up-btn fancy-border screen-sm-hidden">
                     <span>Sign up</span>
                 </a>
             </div>
@@ -119,40 +119,146 @@
     <section class="blog-post section-header-offset">
         <div class="blog-post-container container">
             <div class="blog-post-data">
-                <h3 class="title blog-post-title">Call of Duty bans more than 14,000 cheaters in 24 hours</h3>
+                <h3 class="title blog-post-title">How to Fix Blurry Apps in Windows 11</h3>
                 <div class="article-data">
-                    <span>July 30th 2023</span>
+                    <span>May 19th 2023</span>
                     <span class="article-data-spacer"></span>
-                    <span>3 Min read</span>
+                    <span>9 Min read</span>
                 </div>
                 
             </div>
 
             <div class="container">
 
-                <img src="./assets/images/cod.png" alt="">
+                <img src="./assets/images/fix/1.webp" alt="">
 
-                <p>In a commendable move, Activision has taken decisive action against cheating and hacking in their popular titles Call of Duty (COD): Modern Warfare 2 and Warzone. Through a recent round of ban waves, they have successfully eradicated over 14,000 accounts engaged in these unfair practices. This has been a long-standing issue in live-service games, hindering players from enjoying a level playing field. The recent ban wave targets not just individual hackers but also developers of such cheat engines. </p>
+                <h4>High-resolution monitors are affordable and commonplace these days, but many applications weren't created with these displays in mind. Using them on such monitors or moving the app's window from a second, low-resolution screen to one that's much higher can lead to a fuzzy appearance and blurry-looking text.</h4>
 
-                <h3>Activision Bans 14,000 COD Users</h3>
+                <p>While there is no instant fix for every app that isn't very clear, there are various solutions that you can try to cure those blurry blues for good. Here's our handy guide.</p>
 
-                <p>COD's official Twitter account recently made a significant announcement regarding their latest ban. The ban targeted cheat developers directly, thanks to new detection methods, resulting in a swift removal of 14,000 COD accounts within a 24-hour timeframe.</p>
+                <h3>Scaling and DPI</h3>
 
-                <p>The recent massive ban shouldn't come as a surprise, considering the rigorous updates the Ricochet anti-cheat system has undergone. This comprehensive upgrade introduced several new features, including the 'Replay Investigation' tool and 'Hallucinations.'</p>
+                <p>Monitor screens are comprised of millions of tiny dots (a.k.a. pixels) and one measure for how many there are present is known as DPI – dot per inch. Originally, this referred to how many ink dots a printing press would lay down on paper, in one inch of printing.</p>
 
-                <p>While this ban wave may not have seemed as extensive as the one when Activision banned 90,000 accounts, it's important to note that the updated Ricochet system was still successful in detecting and banning 14,000 cheaters and hackers within a remarkably short span of 24 hours. With ongoing developments in progress, players are now a step closer to enjoying a better and fairer gameplay experience.</p>
+                <p>With computers, it now means how many pixels are used to draw a 1 inch diagonal line on the screen. For many years, Windows has used a standard value of 96 DPI and this was perfectly fine, because the majority of monitors weren't very big or had a high resolution.</p>
 
-                <p>The timing of this ban wave couldn't have been better, as Activision is currently working on the highly anticipated fifth season of 2022's Call of Duty: Modern Warfare 2. Set to release on August 2, 2023, this new season is expected to feature a stricter anti-cheat system than ever before. Fans eagerly await the season 5 drop, which includes Call of Duty skins inspired by renowned artists like Nicki Minaj, Snoop Dogg, and 21 Savage, adding another layer of excitement to the upcoming release.</p>
+                <p>For example, a 15-inch screen with a resolution of 1024 x 768 has a DPI of 85, and because this is lower than the value Windows uses, apps will look just fine.</p>
+
+                <img src="./assets/images/fix/2.webp" alt="">
+
+                <p>However, you can now get a 27-inch 2560 x 1440 monitor for less than $200. Such a screen has a DPI of around 109 and since that's more dots than what Windows uses by default, every app will be slightly blurry. This is because internally Windows will be trying to draw the shape with a fixed number of dots, but then display it spread out over more dots.</p>
+
+                <p>Well, it would be the case if it wasn't for DPI scaling.</p>
+
+                <p>For quite a few years, Microsoft has updated Windows to use a variety of tricks to ensure that programs are correctly displayed on monitors with higher DPIs. However, most of these changes are for developers or hidden away from the end user.</p>
+
+                <p>Fortunately, there is an option to force Windows to alter the DPI it uses, displaying this as a percentage. At 100%, Windows will use the normal value of 96, but increasing this will everything to use a higher number of dots per inch (e.g. 150% is equal to a DPI of 144).</p>
+
+                <h3>How to adjust the DPI scaling</h3>
+
+                <p>Step 1: Press the Windows key + I and then click on the Display section, or click on Start > Settings > System > Display.</p>
+
+                <p>Step 2: Scroll down until you see the Scaling option and click on the Menu.You should see a list of values as shown below:</p>
+
+                <img src="./assets/images/fix/3.webp" alt="">
+
+                <p>Step 3: If applications look too small or too blurry, increase this value – it's recommended that you don't exceed 150%, unless you have a very high resolution monitor.</p>
+
+                <p>Notice how it says 'Recommended' next to 150%? That's because this image was taken using a 27" 4K monitor. If the screen was larger (e.g. 32") then 125% might be a better fit, but it's really down to personal preference.</p>
+
+                <p>Using different scaling values will force everything to change in size, though, and not just applications. The taskbar, notification area, and desktop icons will all shrink or grow, too.</p>
+
+                <img src="./assets/images/fix/4.webp" alt="">
+
+                <p>The image above shows how the Recycle Bin compares at 100%, 125%, 150%, 175%, and 200% scaling on a 4K monitor. If you look closely, you'll see that the first two options leave the text underneath the icon looking a little blurry (the image has been zoomed in, though).</p>
+
+                <p>But remember, if you go too large with the scaling, then you'll lose a lot of room on your taskbar and desktop in general.</p>
+
+                <h3>How to change the DPI scaling for a single app</h3>
+
+                <p>If you've set Windows scaling to how you like it, but are still experiencing problems with a specific application (especially an old one), then you'll need to dig deeper to try and fix the issue.</p>
+
+                <p>Start by right-clicking on the icon for the app and click on the Properties option...</p>
+
+                <img src="./assets/images/fix/5.webp" alt="">
+
+                <p>This will open up a new window, with a variety of tabs along the top – select the one that says Compatibility.</p>
+
+                <img src="./assets/images/fix/6.webp" alt="">
+
+                <p>Towards the bottom of the window, you should see a large button that says Change high DPI settings – click this and another window will open up.</p>
+
+                <p>This is where you can override the app's behavior when it comes to DPI scaling.</p>
+
+                <p>The first option to try is Program DPI and checking this will force Windows to optimize the app's scaling, either when you first log into the operating system or when you launch the program. It's not overly clear exactly what happens with this option, as Microsoft doesn't provide any helpful tips for it.</p>
+
+                <img src="./assets/images/fix/7.webp" alt="">
+
+                <p>It's probably best that you select the "When I open this program" option, simply because you might not use the app very often. If you do, though, then by all means select the first choice.</p>
+
+                <p>The second option you can try is the bottom one, labeled High DPI scaling override. This gives you three choices: Application, System, and System (Enhanced). If it's a particularly old program, it may well have problems scaling properly, so select the third choice in the list.</p>
+
+                <img src="./assets/images/fix/8.webp" alt="">
+
+                <p>You can check both Program DPI and High DPI scaling override to really force Windows to take control over the program's scaling, but more often than not, the first one is enough to get the job done.</p>
+
+                <p>As with all things Windows-related, once you've changed the settings, click on the OK button in the two windows still open, and then restart your computer. Hopefully, the recalcitrant app will behave itself now.</p>
+
+                <p>Note that this works on "Win32" programs as UWP apps (Universal Windows Platform) scale 100% properly, all of the time, according to Microsoft.</p>
+
+                <h3>Other settings for making things clearer</h3>
+
+                <p>DPI scaling is a thorny problem and there's no magic wand that can be waved to fix every problem that might be encountered. So here are some further things you can try, to improve the clarity of everything on your monitor.</p>
+
+                <h4>Use the highest refresh rate that you can</h4>
+
+                <p>Older monitors are often limited to a maximum of 60 Hz, but if yours supports higher values, make sure that Windows is set to using the correct value. If the same section of Settings that you adjust the DPI scaling, scroll down to Advanced display.</p>
+
+                <img src="./assets/images/fix/9.webp" alt="">
+
+                <p>Here you'll see the option to adjust the monitor refresh rate. Monitors are designed to run perfectly well at their highest rate, so unless you have very good reasons for not doing so, make sure it's set at the maximum value.</p>
+
+                <p>Also, ensure you're using the monitor's native resolution – if the screen has 3840 x 2160 pixels, having it set to something else like 2560 x 1600 will definitely make things look blurry.</p>
+
+                <h4>Make sure graphics drivers are up-to-date</h4>
+
+                <p>This might seem like an obvious thing, but when AMD, Intel, and Nvidia update their drivers, they often fix a number of small bugs that can affect specific applications – sometimes it's about stability or performance, but occasionally it can be about images or text not displaying properly.</p>
+
+                <h4>Disable window transparency and animation effects</h4>
+
+                <p>While these give Windows a nice visual touch, for some users, having a partially transparent background or a fancy animation running when you open or close them, can make things harder to read.</p>
+
+                <p>Open up Settings (Win key + I or Start Menu > Settings) and select Accessibility in the left-hand menu. Now choose Visual Effects in the list on the right-hand side of your screen.</p>
+
+                <img src="./assets/images/fix/10.webp" alt="">
+
+                <p>You'll see the option to disable transparency and animation effects here, so click them to deactivate the features. You may even notice that Windows feels a little bit snappier with them off if you're using a budget computer.</p>
+
+                <h4>Adjust ClearType text to suit your monitor</h4>
+
+                <p>A Windows default feature, ClearType enhances how text appears on LCD monitors by drawing them at the sub-pixel level rather than working with entire dots. How it all works isn't important but as every monitor is different, the standard settings might not be perfect for you.</p>
+
+                <p>Click on the Start Menu and type in "ClearType Tuner," and then click on the app shown (it will have a little colored icon next to it). The tuning program first gives you the option to enable ClearType, if it isn't already, followed by which monitors you want to tune it for if you have multiple screens.</p>
+
+                <img src="./assets/images/fix/11.webp" alt="">
+
+                <p>Then, you'll go through 5 tests – just like when you're getting your eyes tested by an optician, select the panel that looks the clearest for you, clicking next each time until you've gone through all of the tests. If you're not happy with the results, then go back and try it again a few times until you have everything matched to your monitor.</p>
+
+                <p>Hopefully, with this guide, you'll have fixed any pesky apps that have been giving you visual problems. Very old apps may be beyond saving but with luck, they should be few in number.</p>
+
+
 
 
                 
                 <div class="author d-grid">
+                    
                     <div class="author-image-box">
+                        
                         <img src="./assets/images/dummy-user.png" alt="" class="article-image">
                     </div>
                     <div class="author-about">
-                        <h3 class="author-name">Suki</h3>
-                        <p>Tech specialist, student at KCE</p>
+                        <h3 class="author-name">Ramanan</h3>
+                        <p>Tech Enthusiast , student at KCE</p>
 
 
                         <ul class="list social-media">
